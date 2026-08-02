@@ -1,4 +1,4 @@
-# library-management-system
+# Library-Management-System
 
     This is a library managment API Backend for the managment of users and the books
 
@@ -7,27 +7,37 @@
 ## /users
 
 GET: Get all the list of users in the system
+
 POST: Create/Register a new user
 
 ## /users/{id}
 
 GET: Get a user by their ID
+
 PUT: Updating a user by their ID
+
 DELETE: Delating a user by their ID (Check if the user still has an issued book) && {is there any fine/penalty to be collected}
 
 ## /users/subscription-details/{id}
 
-GET: Get a user subscription details by their ID >> Date of subscription >> Valid till ? >> Fine if any ?
+GET: Get a user subscription details by their ID 
+
+    >> Date of subscription 
+    >> Valid till ? 
+    >> Fine if any ?
 
 ## /books
 
 GET: Get all the books in the system
+
 POST: Add a new book to the system
 
 ## /books/{id}
 
 GET: Get a book by its ID
+
 PUT: Update a book by its ID
+
 DELETE: Delete a book by its ID
 
 ## /books/issued
