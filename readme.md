@@ -59,12 +59,23 @@ GET: Get all issued books with their fine amount
 > > If a user misses both renewal & subscription, then the collected amount should be $200
 
 ## Commands:
-```npm init```
+```bash
+npm init
+```
 
-```npm i express```
+```bash
+npm i express
+```
 
-```npm i nodemon --save-dev```
+```bash 
+npm i nodemon --save-dev
+```
+to start the appln --> 
+``` bash
+npm run dev 
+``` 
 
-```npm run dev --> to start te appln```
-
-```To restore node_modules and package-lock.json --> npm i/npm install```
+To restore node_modules and package-lock.json --> 
+```bash 
+npm i/npm install
+```
